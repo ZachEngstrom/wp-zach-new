@@ -1,5 +1,5 @@
 ######
-## Backup
+## Backup Files
 ########################################################
 **.bak.php
 **.bak.css
@@ -27,3 +27,4 @@ wp-content/wp-cache-config.php
 ########################################################
 **.css.map
 node_modules/*
+.sass-cache/*
