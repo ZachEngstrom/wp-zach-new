@@ -1,7 +1,13 @@
+######
+## Backup
+########################################################
 **.bak.php
 **.bak.css
 **.bak.scss
 
+######
+## Wordpress
+########################################################
 *.log
 .htaccess
 sitemap.xml
@@ -15,3 +21,9 @@ wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
+
+######
+## Node / Gulp / Sass
+########################################################
+**.css.map
+node_modules/*
