@@ -14,6 +14,11 @@
 require get_template_directory() . '/inc/setup.php';
 
 /**
+ * Custom Menus
+ */
+require get_template_directory() . '/inc/navmenu-primary.php';
+
+/**
  * Content Width
  */
 //require get_template_directory() . '/inc/content-width.php';

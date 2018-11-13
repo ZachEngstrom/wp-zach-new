@@ -75,3 +75,15 @@ if ( ! function_exists( 'zachengstrom_setup' ) ) :
   }
 endif;
 add_action( 'after_setup_theme', 'zachengstrom_setup' );
+
+
+/**
+ * Custom Nav Menu Locations
+ */
+function zachengstrom_nav_menus() {
+  $locations = array(
+    'header-primary' => __('Header Primary', 'zachengstrom'),
+  );
+  register_nav_menus($locations);
+}
+add_action('init','zachengstrom_nav_menus');
