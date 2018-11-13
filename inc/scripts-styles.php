@@ -18,6 +18,7 @@ function zachengstrom_scripts_styles() {
     'zachengstrom-style'     => array('style', 'head', '/css/style.css', ''), // blank version = last updated timestamp
     'zachengstrom-jquery'    => array('script', 'head', '/js/jquery.min.js', '3.3.1'),
     'zachengstrom-vendor-js' => array('script', 'footer', '/js/vendor-scripts.min.js', ''),
+    'zachengstrom-scripts'   => array('script', 'footer', '/js/scripts.min.js', ''),
   );
 
   foreach ($custom_scripts_styles as $handle => $src) {
