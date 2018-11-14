@@ -105,3 +105,12 @@
 		width: 50%;
 	}
 }
+
+header {
+  > .navbar-light {
+    background-color: rgba(255,255,255,0.75) !important;
+  }
+  > .navbar-dark {
+    background-color: #000 !important;
+  }
+}
