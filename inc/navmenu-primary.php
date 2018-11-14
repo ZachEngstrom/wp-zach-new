@@ -30,7 +30,7 @@ function zachengstromcustom_menu_header_primary() {
     foreach ((array) $menu_items as $key => $menu_item) {
       $title = $menu_item->title;
       $url = $menu_item->url;
-      $menu_list .= "\t\t\t". '<li class="nav-item ml-5">'."\n";
+      $menu_list .= "\t\t\t". '<li class="nav-item ml-lg-5">'."\n";
       $menu_list .= "\t\t\t\t". '<a class="nav-link p-0" href="'. $url .'">'. $title.'</a>'."\n";
       $menu_list .= "\t\t\t". '</li>' ."\n";
     }
