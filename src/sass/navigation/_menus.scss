@@ -107,10 +107,15 @@
 }
 
 header {
+  > .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
   > .navbar-light {
     background-color: rgba(255,255,255,0.75) !important;
   }
   > .navbar-dark {
     background-color: #000 !important;
+    transition: background 0.4s, all 0.3s linear;
   }
 }

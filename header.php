@@ -25,7 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'zachengstrom' ); ?></a>
 
   <header id="masthead" class="site-header container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <div class="site-branding">
           <?php
