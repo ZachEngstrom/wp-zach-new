@@ -1,0 +1,13 @@
+/**
+ * Customize Vendor Styling
+ *
+ * Ex: Bootstrap buttons have rounded corners. If you'd like to make them
+ *     square (globally), do so in this file.
+ */
+
+/**
+ * Font Awesome
+ * Reference local fonts
+ * https://fontawesome.com/v4.7.0/icons/
+ */
+@include declare-font-face('FontAwesome', 'fontawesome-webfont');
