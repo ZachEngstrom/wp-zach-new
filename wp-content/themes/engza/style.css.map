@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;;;;;;;;;;;;;;;AACC,UAAI;EACH,OAAO,EAAC,KAAK;;ACDd,UAAI;EACH,OAAO,EAAC,KAAK",
-"sources": ["../../../sass/theme/_header.scss","../../../sass/theme/_footer.scss"],
-"names": [],
-"file": "style.css"
-}
